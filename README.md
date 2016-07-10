@@ -22,11 +22,15 @@ optional arguments:
 ```
 
 # examples
-create new DC
+If you want to create few DCs with a couple of clusters and a lot of host just execute:
+```
+ovirtctl.py --setup --URL 'https://example.com:8443/api' --user 'johnd' --passwd 'pass123' --config ./config.json
+```
+f you want to create new DC:
 ```
 ovirtctl.py --createdc --URL 'https://example.com:8443/api' --user 'johnd' --passwd 'pass123' --config ./config.json
 ```
-create new cluster
+If you want to create new cluster:
 ```
 ovirtctl.py --createclu --URL 'https://example.com:8443/api' --user 'johnd' --passwd 'pass123' --config ./config.json
 ```
