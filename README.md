@@ -4,7 +4,8 @@ ovirtctl is managment utility for ovirt
 ovirtctl is management utilitiy which allows you easily to automate the process of creation of new virtual DCs, clusters; addition of new; hosts to existing clusters; creation and modification of Virtual Machines using the ovirt management Python API.
 
 # usage
-usage: ovirtctl.py [-h] [--createdc] [--createclu] [--addhosts] [--URL URL]
+```
+usage: ovirtctl.py [-h] [--createdc] [--createclu] [--addhosts] [--URL URL ]
                    [--user USER] [--passwd PASSWD] [--config CONFIG]
 
 ovirt opensource management tool
@@ -18,3 +19,4 @@ optional arguments:
   --user USER      user to login with
   --passwd PASSWD  the user password
   --config CONFIG  the config file to be used
+```
