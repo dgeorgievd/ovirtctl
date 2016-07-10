@@ -20,3 +20,13 @@ optional arguments:
   --passwd PASSWD  the user password
   --config CONFIG  the config file to be used
 ```
+
+# examples
+create new DC
+```
+ovirtctl.py --createdc --URL 'https://example.com:8443/api' --user 'johnd' --passwd 'pass123' --config ./config.json
+```
+create new cluster
+```
+ovirtctl.py --createclu --URL 'https://example.com:8443/api' --user 'johnd' --passwd 'pass123' --config ./config.json
+```
