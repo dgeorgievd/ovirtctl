@@ -1,0 +1,28 @@
+{
+    "dc01":{
+        "name": "DC01",
+        "storage_type": "iscsi",
+        "clusters":{
+            "clu01":{
+                "name": "HA01",
+                "CPU": "AuthenticAMD",
+                "hosts":{
+                    "h1":{
+                        "name": "kvm01.mitko.local",
+                        "address": "10.121.1.226",
+                        "rootpasswd": "!nT3R0Ut#"
+                    },
+                    "h2":{
+                        "name": "kvm02.mitko.local",
+                        "address": "10.121.1.227",
+                        "rootpasswd": "!nT3R0Ut#"
+                    }
+                }
+            },
+            "clu02":{
+                "name": "CLU02",
+                "CPU": "AuthenticAMD"
+            }
+        }
+    }
+}
